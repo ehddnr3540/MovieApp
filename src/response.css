@@ -1,0 +1,50 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%
+  }
+
+  .movie-area .movie-list .movie-wrap {
+    width: 25%;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 120px 0 120px 0;
+  }
+
+  nav>.container>.logo img {
+    width: 35px;
+  }
+
+  .container {
+    padding: 0 5px;
+  }
+
+  .search-area form {
+    padding-top: 20px;
+  }
+
+  .movie-area .movie-list .movie-wrap {
+    width: 50%;
+    padding: 3px;
+  }
+
+  .search-area input {
+    width: 80%;
+    font-size: 1.3rem;
+  }
+
+  .search-area input:focus {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .movie-area .movie-list .movie-wrap {
+    width: 100%;
+    padding: 5px;
+  }
+}
