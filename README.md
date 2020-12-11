@@ -1,4 +1,4 @@
-### MovieApp
+# MovieApp
 
 https://ehddnr3540.github.io/MovieApp/
 
