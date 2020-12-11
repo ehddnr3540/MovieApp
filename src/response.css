@@ -1,6 +1,7 @@
 @media screen and (max-width: 1200px) {
   .container {
-    width: 100%
+    width: 100%;
+    padding: 0 10px;
   }
 
   .movie-area .movie-list .movie-wrap {
@@ -16,10 +17,6 @@
 
   nav>.container>.logo img {
     width: 35px;
-  }
-
-  .container {
-    padding: 0 5px;
   }
 
   .search-area form {
@@ -39,6 +36,35 @@
   .search-area input:focus {
     width: 70%;
   }
+
+  .movie-infowrap {
+    display: block;
+    padding-bottom: 0px;
+  }
+
+  .movie-infowrap .img {
+    width: 100%;
+  }
+
+  .movie-infowrap .txt {
+    width: 100%;
+    padding: 20px 0 0 0px;
+  }
+
+  .movie-infowrap .txt p {
+    width: 100%;
+  }
+
+  .movie-infowrap .txt h4 {
+    margin-bottom: 10px;
+  }
+
+  .movie-infowrap .close-btn {
+    position: absolute;
+    top: -45px;
+    right: 0;
+    font-size: 24px;
+}
 }
 
 @media screen and (max-width: 550px) {

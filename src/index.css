@@ -179,7 +179,7 @@ nav > .container > .menu li{
   padding: 15px 0 0 30px;
 }
 
-.movie-infowrap .txt h1 {
+.movie-infowrap .txt h2 {
   margin-bottom: 5px;
 }
 
@@ -188,7 +188,7 @@ nav > .container > .menu li{
   color: #aaa;
 }
 
-.movie-infowrap .txt h1.rate {
+.movie-infowrap .txt h2.rate {
   margin-bottom: 30px;
   color: #db6a36;
 }

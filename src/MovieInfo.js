@@ -11,9 +11,9 @@ const MovieInfo = props => {
           }
         </div>
         <div className="txt">
-          <h1>{props.title}</h1>
+          <h2>{props.title}</h2>
           <h4>{props.releaseDate}</h4>
-          <h1 className="rate"><span>Rate : </span>{props.voteAverage}</h1>
+          <h2 className="rate"><span>Rate : </span>{props.voteAverage}</h2>
           <p>{props.overview}</p>
           <a className="close-btn" href="#" onClick={props.closeMovieInfo}><i class="fas fa-times-circle"></i></a>
         </div>
